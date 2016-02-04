@@ -1,6 +1,1 @@
-testing specs for recipes:
-name: string
-summary: text
-description: text
-
-- name must be present
+Proffessional Ruby on Rails Udemy course project.
