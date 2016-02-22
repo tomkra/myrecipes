@@ -1,1 +1,2 @@
 Proffessional Ruby on Rails Udemy course project.
+https://www.udemy.com/pro-rubyonrails/learn/
