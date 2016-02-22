@@ -9,5 +9,9 @@ Rails.application.routes.draw do
   #patch '/recipes/:id' => 'recipes#update'
   #get 'recipes/:id' => 'recipes#show', as: 'recipe'
   #delete '/recipes/:id' => 'recipes#destroy'
-  resources :recipes #creates all of the routes
+  resources :recipes do
+    member do
+      post 'like'
+    end
+  end
 end
